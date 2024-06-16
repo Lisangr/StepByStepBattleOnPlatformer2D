@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour
 
     public void Awake()
     {
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
         damageScript = FindObjectOfType<Damage>().GetComponent<Damage>();
         //enemyManager = FindObjectOfType<EnemyManager>();
 

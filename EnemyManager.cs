@@ -48,6 +48,6 @@ public class EnemyManager : MonoBehaviour
     }
     public void EndBattleScene()
     {
-        SceneManager.LoadScene("Demo");
+        SceneManager.LoadScene("1-1");
     }
 }
